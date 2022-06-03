@@ -14,3 +14,11 @@ Comandos que se utilizan (normalmente) una sola vez cuando empezamos a trabajar 
 * `git remote add origin URL` para conectar el repositorio local con el repositorio online (que previamente habremos creado en GitHub)
 * `git clone URL` para clonar un repositorio remoto en nuestro dispositivo. Para ello, antes deberá existir en GitHub. Cuando lo clonemos, ya estará inicializado y vinculado al repositorio remoto.
 
+***
+### Trabajando en el repositorio
+Cuando trabajemos en el repositorio local. Tenemos que utilizar distintos comandos para ir pasando por los distintos estados.
+1. Para pasar a la Staging Area, tenemos que utilizar `git add .` aunque previamente debe haberse hecho algún cambio en los archivos.
+2. Para tomar una snapshot y "guardar" el estado actual `git commit -m "mensaje descriptivo"`
+3. Para subir los cambios al repositorio remoto, haremos un `git push`
+
+Por el contrario, si hemos hecho cambios en el repositorio remoto (o algún compañero de equipo ha subido los suyos), tendremos que traerlos a nuestra máquina. Para ello, utilizaremos `git pull`
