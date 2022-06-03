@@ -23,4 +23,4 @@ Cuando trabajemos en el repositorio local. Tenemos que utilizar distintos comand
 
 Por el contrario, si hemos hecho cambios en el repositorio remoto (o algún compañero de equipo ha subido los suyos), tendremos que traerlos a nuestra máquina. Para ello, utilizaremos `git pull`
 
-Además, para chequear el estado del repositorio y los commits realizados, existen también los comandos `git status` y `git log` que nos ayudarán a saber el registro de eventos, los archivos trackeados y qué hacer a continuación en base a ello.
+Además, para chequear el estado del repositorio y los commits realizados, existen también los comandos `git status` y `git log` que nos ayudarán a saber el registro de eventos, los archivos trackeados, si hay alguna incidencia, y qué hacer a continuación en base a ello.
