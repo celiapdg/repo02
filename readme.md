@@ -40,4 +40,4 @@ Además, para chequear el estado del repositorio y los commits realizados, exist
 |`git push`| Sube los cambios al repositorio remoto |
 |`git pull`| Trae los cambios del repositorio remoto |
 |`git status`| Ver el estado actual del repositorio: archivos cambiados, incidencias... |
-|`git log`| Registro de commits: autor, hora y fecha |
+|`git log`| Registro de commits: autor, hora, fecha y comentario |
